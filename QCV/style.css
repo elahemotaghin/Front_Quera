@@ -66,14 +66,20 @@ a {
 }
 
 .label {
-  font-weight: bold;
+  display: inline-block;
+  background-color: #e8e8e8;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 700;
+  border-radius: 4px;
   font-size: 0.84615385rem;
   margin: 0.25rem 0 0.25rem 0.5rem;
-  background-color: #e8e8e8;
   padding: 3px 10px;
-  color: rgba(0, 0, 0, 0.6);
+}
+
+.label .details {
+  margin-right: 10px;
+  opacity: 0.8;
   display: inline-block;
-  border-radius: 4px;
 }
 
 /* ====== Sidebar ====== */
@@ -252,7 +258,7 @@ a {
   width: 60px;
 }
 
-.education .items .item .row{
+.row{
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -297,11 +303,56 @@ a {
 }
 
 .other-skills .label {
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 
 .other-skills .label .detail{
   display: inline-block;
   margin-right: 10px;
   opacity: 0.8;
+}
+
+.technical-skills h4 {
+  margin-bottom: 5px;
+  font-weight: normal;
+}
+
+.other {
+  display: flex;
+}
+
+.other > div {
+  width: 50%;
+}
+
+.circle.olive {
+  background-color: #b5cc18;
+}
+
+.content{
+  margin-top: 15px;
+  padding-left: 20px;
+}
+
+.language .content .row{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.language .content .row .circle-group{
+  display: flex;
+}
+
+.language .content .row .circle-group .circle{
+  background-color: #e8e8e8;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin: 0px 2px;
+}
+
+
+.language .content .row .circle-group .violet{
+  background-color: #1bb9b7;
 }
