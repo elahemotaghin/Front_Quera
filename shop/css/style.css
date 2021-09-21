@@ -1,3 +1,15 @@
+@font-face {
+  font-family: Vazir;
+  src: url('../fonts/Vazir.ttf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url('../fonts/Vazir-Bold.ttf');
+  font-weight: bold;
+}
+
 html {
   min-height: 100%;
   position: relative;
